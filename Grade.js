@@ -1,11 +1,12 @@
 // Challenge 1: Student Grade Generator (Toy Problem)
+//makes sure the grades are between 0 to 100
 function studentGrade(marks){
     if(marks < 0 || marks > 100){
         console.log("Invalid input.Please enter a number between 0 to 100")
         return;
     }
 
-
+//checks the marks of students and grades it.
     if(marks>=79){
         console.log("A");
     }

@@ -7,10 +7,12 @@ function speedDetector(speed){
     let points=(overSpeed/demerits);
     let excess= 60;
     let highSpeed= limitSpeed + excess
-
+//checks whether the speed limit is ok 
     if (speed<= limitSpeed){
         console.log('Ok')
+
     }
+//checks whether the points are below 12 and returns license suspended if above
     else if(speed >= highSpeed){
         console.log('Licence suspended')
     }
